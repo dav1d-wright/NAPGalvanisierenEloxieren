@@ -1,0 +1,112 @@
+\section{Grundlagen}
+
+\subsection{Redoxreaktionen}
+\begin{longtable}{p{3cm}p{14cm}}
+	\textbf{Definition}
+		& Redoxreaktionen sind Reaktionen, in denen gleichzeitig ein Stoff reduziert und ein anderer oxidiert wird. Daher stammtt ihr ursprünglicher Name: \textbf{Reduktions-Oxidations-Reaktion}. Redoxreaktionen sind in der Chemie von grundlegender Bedeutung. Vor allem Verbrennungs- und Stoffwechselvorgägne sowie viele technische Produktionsprozesse basieren auf diesen Prozessen.\\
+	\hline
+	\textbf{Reduktion}
+		& Bei einer Reduktion nimmt ein Stoff Elektronen auf, dieser Stoff wird \textbf{Oxidationsmittel} oder \textbf{Akzeptor} genannt. Dabei nimmt seine Wertigkeit ab, da es danach negativ geladen ist.\\
+	\hline
+	\textbf{Oxidation}
+		& Bei einer Oxidation gibt ein Stoff Elektronen ab, dieser Stoff wird \textbf{Reduktionsmittel} oder \textbf{Donator} genannt. Analog zur Reduktion nimmt seine Wertigkeit zu.\\
+	\textbf{Allgemeine Reaktionsschemata}
+		& Eine Redoxreaktion lässt sich einfach in folgenden Reatkionsschemata verallgemeinern.
+\end{longtable}
+\begin{figure}[H]\centering
+	\begin{subfigure}[H]{0.5\linewidth}\centering
+		\chemfig{A} \chemrel{->} \chemfig{A^{+}} + \chemfig{e^{-}}
+		\subcaption{Oxidation: Stoff \chemfig{A} (Donator) gibt ein Elektron ab}
+	\end{subfigure}
+	
+	\begin{subfigure}[H]{0.5\linewidth}\centering
+		\chemfig{B} + \chemfig{e^{-}} \chemrel{->} \chemfig{B^{-}}  
+		\subcaption{Reduktion: Stoff \chemfig{B} (Akzeptor) nimmt ein Elektron auf}
+	\end{subfigure}
+	
+	\begin{subfigure}[H]{0.5\linewidth}\centering
+		\chemfig{A} + \chemfig{B} \chemrel{->} \chemfig{A^{+}} + \chemfig{B^{-}} 
+		\subcaption{Redoxreaktion: Donator \chemfig{A} gibt ein Elektron an Akzeptor \chemfig{B} ab}
+	\end{subfigure}
+	\caption{Allgemeine Reaktionsschemata der Redoxreaktion}
+\end{figure}
+
+\subsection{Das Eloxal-Verfahren}
+\begin{longtable}{p{3cm}p{14cm}}
+	\textbf{Definition}
+		& Eloxal steht für \textbf{El}ektrolytische \textbf{Ox}idation von \textbf{Al}uminium. Dieses Verfahren ist eine Methode zur Erzeugung einer oxidischen Schutzschicht auf der Aluminiumoberfläche durch anodische Oxidation. Im gegenzug zu galvanischen Verfahren wird beim Eloxal-Verfahren kein Überzug auf der Oberfläche gebildet, sondern die oberste Metallschicht oxidiert, so dass diese tiefer liegende Schichten vor Korrosion schützt sind, so lange keine Schäden in dieser Schicht entstehen.\\
+	\hline
+	\textbf{Das Korrosionsverhalten von Aluminium}
+		& Obwohl Aluminium ein unedles Metall ist wird es durch eine sehr dünne, \chemfig{O_{2}}-undurchlässige atmosphärische Passivoxidschicht vor korrosion geschützt. Die natürliche, atmosphärische, Oxidschicht von Aluminium ist nach einigen Tagen bis Wochen lediglich 100-500$\mathrm{nm}$ dick, wobei diese Eloxalschicht 5-25$\mathrm{\mu m}$ dick ist. Wird diese Oxidschicht verletzt reagiert das Aluminium fast augenblicklich mit dem Sauerstoff zu Aluminiumoxid.\\
+\end{longtable}
+
+\begin{figure}[H]\centering
+	$\chemfig{2Al} + \frac{3}{2}\chemfig{O_{2}} + x\chemfig{H_{2}O} \chemrel{->} \chemfig{Al_{2}O_{3}} + x\chemfig{H_{2}O} \quad x\in {0, 1, 2, 3}$
+	\caption{Korrosionsverhalten von Aluminium}
+\end{figure}
+
+\begin{longtable}{p{3cm}p{14cm}}
+	\hline
+	\textbf{Voraussetzung für Korrosionsreaktionen}
+		& Falls ein metallischer Stoff (ausser Gold und Platinmetalle) an der Luft beständig ist, muss er von einem Passivoxidfilm bedeckt sein, um eine Korrosion zu ermöglichen muss dieser zuerst Zerstört werden. Korrosionen verlaufen demnach in zwei Teilschritten.
+		\begin{enumerate}
+			\item Depassivierung
+			
+			\item Korrosion (Redoxreaktion)
+		\end{enumerate}
+		Ob eine Depassivierung möglich ist wird durch den Gehalt an Depassivatoren und Passivatoren in der Elektrolytlösung bestimmt. Depassivatoren sind Stoffe, welche den Passivoxidfilm schwächen, Passivatoren sind Stoffe, die diesen stärken.
+		Die Korrosionstypen werden zudem noch unterteilt in zwei Kategorien.
+		\begin{itemize}
+			\item \chemfig{H_{2}}-Typ: Oxidationsmittel \chemfig{H^{+}}
+			
+			\item \chemfig{O_{2}}-Typ: Oxidationsmittel \chemfig{O_{2}}
+		\end{itemize}\\
+	\hline
+	\textbf{Vorbehandlung des Werkstücks}
+		& Bevor ein Werkstück Eloxiert wird muss dessen Oberfläche einen möglichst hohen Grad an Reinheit haben, da das Aussehen abgesehen von der Farbänderung nicht wesentlich verändert wird und demnach Beschädigungen danach gut sichtbar sind. Dementsprechend muss es  vorbehandelt werden, dies beinhaltet in der Praxis Anschleifen, Polieren, Anätzen etc. Beim Anätzen wird das Werkstück in eine \chemfig{NaOH}-Lösung getaucht und in einem ersten Schritt die natürliche Passivoxidschicht entfernt (Depassivierung), in einem zweiten die Oberfläche wieder oxidiert.\\
+\end{longtable}
+
+\begin{figure}[H]\centering
+	\begin{subfigure}[H]{0.5\linewidth}
+		$$\chemfig{Al_{2}O_{3}}_{(s)} + 2\chemfig{OH^{-}} + 3\chemfig{H_{2}O} \chemrel{->} 2[\chemfig{Al}(\chemfig{OH_{4}})]^{-}_{(aq)}$$
+		\caption{Depassivierung} 
+	\end{subfigure}
+	
+	\begin{subfigure}[H]{0.5\linewidth}
+		$$\chemfig{Al} + \chemfig{Na^{+}} + \chemfig{OH^{-}} + 3\chemfig{H_{2}O}\chemrel{->} \chemfig{Na^{+}} + \chemfig{Al}(\chemfig{OH})^{-}_4 + \frac{3}{2}\chemfig{H_{2}}$$
+		\caption{Oxidation} 
+	\end{subfigure}
+	\caption{Beizen in der NaOH-Lösung}
+\end{figure}
+
+\begin{longtable}{p{3cm}p{14cm}}
+	\hline
+	\textbf{Verstärkung des Passivoxidfilmes}
+		& Für die Herstellung dieser angebrachten dickeren, härteren und korrosionsbeständigeren Oxidschicht wird das Werkstück als Anode in der Elektrolyse mit einer Schwefelsäurelösung als Elektrolyt geschaltet. Um eine Verdickung der Passivoxidschicht zu erreichen, muss gleichzeitig die neugebildete Oxidschicht wieder aufgelöst werden. Dafür wird eine Säure benötigt, da die Schicht in neutraler Lösung nicht löslich ist. Ohne diese Depassivierung wäre nur eine Zersetzung vom Wasser möglich. 
+		
+		Während in dieser Elektrolyse an der Kathode \chemfig{H_{2}}-Gas gebildet wird, wird an der Anode Aluminium oxidiert, wobei sich eine fest haftende \chemfig{Al}(\chemfig{OH})\chemfig{_{3}}-Schicht aus den \chemfig{Al^{3+}}- und den \chemfig{OH^{-}}-Ionen bildet. Die \chemfig{OH^{-}}-Ionen entstehen durch die Autodissoziation des Wassers.\\
+\end{longtable}
+
+\begin{figure}[H]\centering
+	\begin{subfigure}[H]{0.5\linewidth}
+		$$6\chemfig{H_{3}O^{+}} + 6\chemfig{e^{-}} \chemrel{->} 6\chemfig{H_{2}O} + 3\chemfig{H_{2}}$$
+		\caption{Reduktion an der Kathode} 
+	\end{subfigure}
+	
+	\begin{subfigure}[H]{0.5\linewidth}
+		$$2\chemfig{Al} \chemrel{->} 2\chemfig{Al^{3+}} + 6\chemfig{e^{-}}$$
+		\caption{Oxidation an der Anode} 
+	\end{subfigure}
+	
+	\begin{subfigure}[H]{0.5\linewidth}
+		$$2\chemfig{Al} + 6\chemfig{H_{3}O^{+}} \chemrel{->} 2\chemfig{Al^{3+}} + 6\chemfig{H_{2}O} + 3\chemfig{H_{2}}$$
+		\caption{Redoxreaktion} 
+	\end{subfigure}	
+	\caption{Bildung der Oxidschicht beim Eloxieren}
+\end{figure}
+
+\begin{longtable}{p{3cm}p{14cm}}
+	\hline
+	\textbf{Punktförmige Anlösung des Werkstoffes}
+		& Nach wenigen Sekunden ist die Grundschicht auf ca 0.015$\mathrm{\mu m}$ angewachsen. Eine weitere Dickezunahme der Grundschicht ist danach aufgrund kleiner werdender Ionenleitfähigkeit nicht mehr möglich. Danach wird die Grundschicht von oxidlösenden Säureelektrolyten punktförmig angelöst. Diese Porenschicht wächst zu etwa $\frac{2}{3}$ nach innen und wegen des grösseren Volumens des Hydroxids zu etwa $\frac{1}{3}$ nach aussen. Dafür muss die Säurekonzentration so gewählt werden, dass die Schichtbildungsgeschwindigkeit grösser ist als die Schichtauflösungsgeschwindigkeit. Die dadurch maximal erreichbare Dicke ist ca 45 $\mathrm{\mu m}$, dann wird die Bildungs- und Auflösungsgeschwindigkeit etwa gleich gross.\\
+\end{longtable}
