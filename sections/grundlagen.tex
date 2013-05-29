@@ -157,7 +157,12 @@
 				In einem sauren Bad mit Netzmittelzusatz wird der Oxidfilm entfernt und gleichzeitig die eventuell noch basische Metalloberfläche neutralisiert. Dadurch wird eine sofortige, gleichmässige Benetzung beim Eintauchen ins Galvanisierbad gewährleistet.
 		\end{itemize}\\
 	\hline
-	\textbf{Verkupfern}
+\end{longtable}
+
+\subsubsection{Verkupfern}
+
+\begin{longtable}{p{3cm}p{14cm}}
+	\textbf{ACHTUNG!!}
 		& \textcolor{red}{\textbf{Achtung: Die Elektrolytlösung darf unter keinen Umständen sauer werden!! Sonst entsteht aus dem Zyanid hochtoxische Blausäure, welche als Gas aus der Lösung entweicht!!}}
 	\end{longtable}
 	\begin{figure}[H]\centering
@@ -188,19 +193,20 @@
 		& wobei die Konzentration der Produkte wesentlich kleiner ist als die Konzentration der Edukte, erkennt man, dass bei einer angelegten Spannung die \chemfig{Cu^{+}} zum, als Kathode geschalteten, Werkstück gezogen werden.\\
 	\hline
 	\textbf{Erklärung mit dem Le Châtelier-Gesetz}
-		& Durch das Gesetz des kleinsten Zwanges von Le Châtelier kann man die Qualitative Aussage machen, dass das chemische Gleichgewicht aufrecht erhalten werden will, und dem entsprechend von der positiv geladenen Kupferanode weitere Kupferkationen herauslöst.
-		
-		Daraus ergeben sich folgende Reaktionsgleichungen:\\
+		& Durch das Gesetz des kleinsten Zwanges von Le Châtelier kann man die Qualitative Aussage machen, dass das chemische Gleichgewicht aufrecht erhalten werden will, und dem entsprechend von der positiv geladenen Kupferanode weitere Kupferkationen herauslöst.\\
+	\hline
+	\textbf{Reaktions-gleichungen}
+		& Daraus ergeben sich folgende Reaktionsgleichungen:\\
 \end{longtable}
 
 \begin{figure}[H]\centering
 	\begin{subfigure}[H]{0.5\linewidth}
-		$$\overset{0}{\chemfig{Cu}_{(s)}} \chemrel{->} \overset{-\mathrm{I}}{\chemfig{Cu^{+}}_{(aq)}} + \chemfig{e^{-}}$$
+		$$\overset{\mathrm{\color{red}{0}}}{\chemfig{Cu}_{(s)}} \chemrel{->} \overset{\mathrm{\color{red}{I}}}{\chemfig{Cu^{+}}_{(aq)}} + \chemfig{e^{-}}$$
 		\caption{Oxidation von Cu an der Anode} 
 	\end{subfigure}
 	
 	\begin{subfigure}[H]{0.5\linewidth}
-		$$\overset{-\mathrm{I}}{\chemfig{Cu^{+}}_{(aq)}} +\chemfig{e^{-}} \chemrel{->} \overset{0}{\chemfig{Cu}_{(s)}}$$
+		$$\overset{\mathrm{\mathrm{\color{red}{I}}}}{\chemfig{Cu^{+}}_{(aq)}} +\chemfig{e^{-}} \chemrel{->} \overset{\mathrm{\color{red}{0}}}{\chemfig{Cu}_{(s)}}$$
 		\caption{Reduktion von Cu an der Kathode} 
 	\end{subfigure}
 	
@@ -208,9 +214,13 @@
 \end{figure}
 
 \begin{longtable}{p{3cm}p{14cm}}
-\hline
-\textbf{Vernickeln}
-	& Beim Vernickeln zerfällt der Hauptelektrolyt \chemfig{NiSO_{4}} (Nickelsulfat) folgendermassen:
+	& \\
+	\hline
+\end{longtable}
+
+\subsubsection{Vernickeln}
+\begin{longtable}{p{3cm}p{14cm}}
+		& Beim Vernickeln zerfällt der Hauptelektrolyt \chemfig{NiSO_{4}} (Nickelsulfat) folgendermassen:
 \end{longtable}
 
 \begin{figure}[H]\centering
@@ -219,8 +229,9 @@
 \end{figure}
 
 \begin{longtable}{p{3cm}p{14cm}}
-\hline
-	& Diese \chemfig{Ni^{2+}}-Ionen werden hydratisiert, diese hydratisierten Nickelionen reagieren mit Wasser schwach sauer:
+	\hline
+	\textbf{Saure Reaktion bei der Vernickelung}
+		& Diese \chemfig{Ni^{2+}}-Ionen werden hydratisiert, diese hydratisierten Nickelionen reagieren mit Wasser schwach sauer:
 \end{longtable}
 
 \begin{figure}[H]\centering
@@ -229,5 +240,24 @@
 \end{figure}
 
 \begin{longtable}{p{3cm}p{14cm}}
-\
+	& Gleichzeitig wird an der Kathode \chemfig{H^{+}} zu H reduziert.\\
 \end{longtable}
+
+\begin{figure}[H]\centering
+	$$2\chemfig{H_{3}O^{+}} +2\chemfig{e^{-}} \chemrel{->} \chemfig{H_{2}} + 2\chemfig{H_{2}O}$$
+	\caption{Reduktion von Wasserstoff an \\ der Kathode beim Vernickeln}
+\end{figure}	
+	
+\begin{longtable}{p{3cm}p{14cm}}
+		& Dadurch wird schwerlösliches $\chemfig{Ni}(\chemfig{OH})_2$ ausgefällt, dies führt schlussendlich dazu, dass die Nickelabscheidung behindert wird. Zur Verhinderung dessen muss die Lösung mit Borsäure (\chemfig{H_{3}BO_{3}}) gepuffert werden.\\
+	\hline
+	\textbf{Reaktions-gleichungen}
+		& Die Reaktionsgleichungen ergeben sich diesbezüglich folgendermassen:\\
+\end{longtable}
+
+\begin{figure}[H]\centering
+	$$\overset{\mathrm{\color{red}{0}}}{\chemfig{Ni}_{(s)}} \chemrel{->} \overset{\mathrm{\color{red}{II}}}{\chemfig{Ni^{2+}}_{(aq)}} + 2\chemfig{e^{-}}$$
+	\caption{Oxidation von Ni an der Anode}
+	$$\overset{\mathrm{\color{red}{II}}}{\chemfig{Ni^{2+}}_{(aq)}} + 2\chemfig{e^{-}} \chemrel{->} \overset{\mathrm{\color{red}{0}}}{\chemfig{Ni}_{(s)}}$$
+	\caption{Reduktion von Ni an der Kathode}
+\end{figure}
