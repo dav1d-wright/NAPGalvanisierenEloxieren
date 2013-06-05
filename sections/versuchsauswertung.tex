@@ -7,7 +7,7 @@
     \hline
     
     \textbf{Eloxieren}
-    & Nach dem Zwischenspülen wurden die Gemüseschäler für eine Stunde in die Schwefelsäure getaucht. Dabei mussten wir zwischenzeitlich immer wieder die beiden Aluelektroden auf den Kontaktstäben hin- und herbewegen, da sie teilweise nicht mehr guten Kontakt gemacht haben. Für das Eloxieren ist jedoch ein gleichmässiger Fluss des Stromes von beiden Seiten notwendig damit die Eloxalschicht überall gleichmässig dick wird.\newline
+    & Nach dem Zwischenspülen wurden die Gemüseschäler für eine Stunde in die Schwefelsäure getaucht. Dabei mussten wir zwischenzeitlich immer wieder die beiden Aluelektroden auf den Kontaktstäben hin- und herbewegen, da sie teilweise nicht mehr guten Kontakt gemacht haben. Dies war dadurch ersichtlich, dass sich an den beiden Aluelektroden nicht gleich viele Bläschen gebildet haben. Für das Eloxieren ist jedoch ein gleichmässiger Fluss des Stromes von beiden Seiten notwendig damit die Eloxalschicht überall gleichmässig dick wird.\newline
     Der benötigte Strom für das Eloxieren wurde wie folgt durch geschätzte Flächen berechnet:\\
     &     $$\begin{aligned}
             S_{Handgriff} &= 0.612 \, \mathrm{dm^2}\\
@@ -37,7 +37,7 @@
             \rho_{Eloxal} &= 2.5\cdot 10^{6} \, \frac{\mathrm{g}}{\mathrm{m}^3} \qquad \text{(unverdichtet)}\\
             V_{Eloxal} &= \frac{m_{Eloxalschicht}}{\rho_{Eloxal}} = \frac{0.23057 \, \mathrm{g}}{2.5\cdot 10^{6} \, \frac{\mathrm{g}}{\mathrm{m}^3}} = 92.228 \cdot 10^{-9} \, \mathrm{m^3}\\
             S_{Referenz} &= 5 \cdot 10^{-3} \, \mathrm{m^2}\\
-            d_{Eloxal} &= \frac{V_{Eloxal}}{S_{Referenz}} = \frac{92.228 \cdot 10^{-9} \, \mathrm{m^3}}{5 \cdot 10^{-3} \, \mathrm{m^2}}= 18.45 \, \mathrm{\mu m}
+            d_{Eloxal} &= \frac{V_{Eloxal}}{S_{Referenz}} = \frac{92.228 \cdot 10^{-9} \, \mathrm{m^3}}{5 \cdot 10^{-3} \, \mathrm{m^2}}= \underline{\underline{18.45 \, \mathrm{\mu m}}}
        \end{aligned}$$\\
     & Gemäss Abbildung 2 Seite 4 des Versuchsskriptes sollte die Eloxalschichtdicke nach 45 Minuten eloxieren ungefähr $20 \mathrm{\mu m}$ betragen. Somit stimmt die von uns durch die Massendifferenz berechnete Schichtdicke von $18.45 \mathrm{\mu m}$ relativ gut überein.\\
     \hline
@@ -87,11 +87,12 @@
     & Stromberechnung für das Vergolden:
     $$\begin{aligned}
         J &= 45 \, \mathrm{A/m^2}\\
-        I_{berechnet} &= J \cdot S_{gesamt} = 30 \, \mathrm{mA}
+        I_{berechnet} &= J \cdot S_{gesamt} = 293 \, \mathrm{mA}
     \end{aligned}$$
     
-    Der berechnete Strom kam uns von Anfang an sehr klein vor. Dies hat sich nach der 2-minütigen Vergoldungszeit auch so gezeigt. Denn es wurde während dieser Zeit kein Gold abgeschieden. Die Oberflächen der Werkstücke sahen aus wie vorher. Grund dafür könnte sein, dass das neue Goldbad ganz andere Parameter hat als im Versuchsskript beschrieben. Denn auch die Vergoldungszeit war ja nur 2 Minuten anstatt 7 Minuten. Wahrscheinlich ist die Stromdichte von 45 $\mathrm{A/m^2}$ zu klein bei einer Vergoldungszeit von nur 2 Minuten.\newline
-    In einem zweiten Durchgang haben wir die Stromstärke dann auf ca. 290mA erhöht. Dieser zweite Durchgang dauerte 1 Minute. Da während der ersten Phase sichtbar kein Gold abgeschieden wurde, haben wir dies nicht in die Berechnung der Goldmenge hineingenommen.\newline
+    Wir hatten zu Begin einen Strom von ca. 30 mA berechnet. Mit diesem Strom haben wir dann auch 2 Minuten lang vergoldet. Es wurde während dieser Zeit jedoch kein Gold abgeschieden. Die Oberflächen der Werkstücke sahen aus wie vorher.\newline
+    In einem zweiten Durchgang haben wir die Stromstärke dann auf 290mA erhöht. Dieser zweite Durchgang dauerte 1 Minute. Da während der ersten Phase sichtbar kein Gold abgeschieden wurde, haben wir dies nicht in die Berechnung der Goldmenge hineingenommen.\newline
+    In der Versuchsauswertung haben wir den nötigen Strom nun nochmals neu berechnet und gesehen, dass wir mit unserem zufällig eingestellten Strom von 290 mA relativ gut lagen.\newline
     Um die abgeschiedene Goldmenge zu berechnen, muss man beachten, dass nicht der gesamte Strom in die Goldabscheidung hineinfliesst, sondern dass auch ein Teil in die Zersetzung von Wasser geht.
 \end{longtable}
 \newpage
@@ -113,12 +114,12 @@
     & Somit errechnet sich der Strom, der für die Goldabscheidung zuständig war und die dabei abgeschiedene Goldmenge:
     $$\begin{aligned}
         I_{Au} &= J_{Au} \cdot S_{gesamt} = 36 \, \mathrm{A/m^2} \cdot 6.501 \cdot 10^{-3} \, \mathrm{m^2} = 234 \, \mathrm{mA}\\
-        m_{Au} &= \frac{M \cdot I_{Au} \cdot t}{F} = \frac{196.97 \cdot 10^{-3} \, \frac{\mathrm{kg}}{\mathrm{mol}} \cdot 0.234 \, \mathrm{A} \cdot 60 \, \mathrm{s}}{96'500 \, \frac{\mathrm{C}}{\mathrm{mol}}} = 28.66 \, \mathrm{\mu g}\\
-        d_{Au} &= \frac{m_{Au}}{\rho_{Au} \cdot S_{gesamt}} = \frac{28.66 \cdot 10^{-6} \, \mathrm{kg}}{19.32 \cdot 10^3 \, \mathrm{kg/m^3} \cdot 6.501 \cdot 10^{-3} \, \mathrm{m^2}} = 228 \, \mathrm{nm}
+        m_{Au} &= \frac{M \cdot I_{Au} \cdot t}{F} = \frac{196.97 \cdot 10^{-3} \, \frac{\mathrm{kg}}{\mathrm{mol}} \cdot 0.234 \, \mathrm{A} \cdot 60 \, \mathrm{s}}{96'500 \, \frac{\mathrm{C}}{\mathrm{mol}}} = \underline{\underline{28.66 \, \mathrm{\mu g}}}\\
+        d_{Au} &= \frac{m_{Au}}{\rho_{Au} \cdot S_{gesamt}} = \frac{28.66 \cdot 10^{-6} \, \mathrm{kg}}{19.32 \cdot 10^3 \, \mathrm{kg/m^3} \cdot 6.501 \cdot 10^{-3} \, \mathrm{m^2}} = \underline{\underline{228 \, \mathrm{nm}}}
     \end{aligned}$$
     Bei einem Goldpreis von 25'000 Fr./kg entspricht dies in ungefähr Gold im Wert von:
     $$\begin{aligned}
-        Preis &= 28.66 \cdot 10^{-6} \, \mathrm{kg} \cdot 25'000 \, \mathrm{Fr./kg} = 0.715  \, \mathrm{Fr.} \cong 72 \, \mathrm{Rp.}
+        Preis &= 28.66 \cdot 10^{-6} \, \mathrm{kg} \cdot 25'000 \, \mathrm{Fr./kg} = \underline{\underline{0.715  \, \mathrm{Fr.}}} \cong \underline{\underline{72 \, \mathrm{Rp.}}}
     \end{aligned}$$\\
     
     & Im Allgemeinen hat auch das Vergolden gut funktioniert. Einzig bei einem Fünflieber gab es eine kleine Auflagefläche, wo dementsprechend nicht vergoldet wurde. Die aufgetragene Goldmasse beträgt insgesamt nun also 28.66 $\mathrm{\mu g}$, die Goldschichtdicke beträgt 228 nm und der Wert dieses Goldes 72 Rappen.
